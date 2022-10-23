@@ -94,6 +94,9 @@
 .studio-section-our-team {
   background-color: var(--second-background-color);
 }
+.studio-section-our-team h2 {
+  text-align: center;
+}
 .studio-list-our-team h2 {
   font-size: 36px;
   font-weight: 700;
