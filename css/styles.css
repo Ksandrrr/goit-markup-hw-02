@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --brand-color: #2196f3;
+  --second-text-color: #757575;
+  --footer-background-color: #2f303a;
+  --last-text-color: #ffffff;
+  --second-background-color: #F5F4FA;
+}
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-first-word {
+  color: var(--brand-color);
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+}
+.header-navigation a {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.communication-links a {
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-navigation a:hover,
+.header-navigation a:focus,
+.communication-links a:hover,
+.communication-links a:focus {
+  color: var(--brand-color);
+}
+.nav-link-studia.current,
+.nav-link-portfolio.current {
+  color: var(--brand-color);
+}
+
+.tittle {
+  background-color: var(--footer-background-color);
+  text-align: center;
+}
+.tittle h1 {
+  color: var(--last-text-color);
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+}
+.tittle button {
+  background-color: var(--brand-color);
+  color: white;
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: 0.06em;
+}
+.studio-section-advantage h3 {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+.studio-section-advantage p {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.studio-section-our-activity h2 {
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.studio-section-our-team {
+  background-color: var(--second-background-color);
+}
+.studio-list-our-team h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.studio-list-our-team h3 {
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+.studio-list-our-team p {
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.portfolio-button-filter button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  
+}
+.portfolio-button-filter button:hover,
+.portfolio-button-filter button:focus {
+  background-color: var(--brand-color);
+}
+
+.list-portfolio figcaption {
+  color: var(--second-text-color);
+  letter-spacing: 0.03em;
+  line-height: 1.87;
+}
+.list-portfolio h2 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+footer {
+  background-color: var(--footer-background-color);
+}
+.logo-footer-second-word {
+  color: var(--last-text-color);
+}
+.footer-communication-links a {
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 500;
+  font-style: normal;
+}
+
+address p {
+  color: var(--last-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer-communication-links a:hover,
+.footer-communication-links a:focus {
+  color: var(--brand-color);
+}
