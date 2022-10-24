@@ -1,32 +1,32 @@
-* {
-  box-sizing: border-box;
+body {
   font-family: 'Roboto', sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
-  margin: 0;
-  padding: 0;
+  
+
 }
 
 :root {
   --brand-color: #2196f3;
+  --main-text-color: #212121;
   --second-text-color: #757575;
   --footer-background-color: #2f303a;
   --last-text-color: #ffffff;
-  --second-background-color: #F5F4FA;
+  --second-background-color: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 .logo {
+  color: var(--main-text-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
 }
 .logo-first-word {
   color: var(--brand-color);
-  font-family: 'Raleway',sans-serif;
   font-weight: 700;
 }
 .header-navigation a {
+  color: var(--main-text-color);
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -60,6 +60,7 @@
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
+  text-transform: uppercase;
 }
 .tittle button {
   background-color: var(--brand-color);
@@ -80,7 +81,7 @@
 .studio-section-advantage p {
   font-size: 14px;
   line-height: 1.71;
-  font-weight: 400;
+  
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
@@ -95,6 +96,11 @@
   background-color: var(--second-background-color);
 }
 .studio-section-our-team h2 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .studio-list-our-team h2 {
@@ -111,7 +117,6 @@
   letter-spacing: 0.03em;
 }
 .studio-list-our-team p {
-  font-size: 16px;
   line-height: 1.18;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -125,19 +130,19 @@
   line-height: 1.62;
   letter-spacing: 0.03em;
   font-family: inherit;
-  
 }
 .portfolio-button-filter button:hover,
 .portfolio-button-filter button:focus {
   background-color: var(--brand-color);
 }
 
-.list-portfolio figcaption {
+.list-portfolio p {
   color: var(--second-text-color);
   letter-spacing: 0.03em;
   line-height: 1.87;
 }
 .list-portfolio h2 {
+  color: var(--main-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -150,7 +155,7 @@ footer {
   color: var(--last-text-color);
 }
 .footer-communication-links a {
-  color: var(--second-text-color);
+  color: var(--footer-text-color);
   font-size: 14px;
   line-height: 1.7;
   font-weight: 500;
